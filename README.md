@@ -11,7 +11,7 @@ BlogBreeze is a blog sharing platform with many cool UI features.
 **Database:** Postgres, Prisma(ORM)
 ## Try Now:
 
-The web application has been deployed here : 
+The web application has been deployed [here](https://blogbreeze-omega.vercel.app/)
 ## Run Locally
 
 Clone the project
