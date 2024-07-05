@@ -10,7 +10,6 @@ import { FiPenTool } from "react-icons/fi";
 
 export const Blogs = () => {
     const navigate = useNavigate()
-
     useEffect(() => {
         const token = localStorage.getItem('token')
         if (!token) {
