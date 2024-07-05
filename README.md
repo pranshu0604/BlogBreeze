@@ -19,7 +19,7 @@ Clone the project
 ```bash
   git clone git@github.com:pranshu0604/BlogBreeze.git
 ```
-Create your own .env and wrangler.toml files to save environment variables.
+Create your own .env and wrangler.toml files to use environment variables.
 
 Go to the project directory
 
