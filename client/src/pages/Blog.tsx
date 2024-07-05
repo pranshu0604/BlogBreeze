@@ -49,7 +49,7 @@ export const Blog = () => {
                     </div>
                     {loading && <PublishedSkeleton />}
                     {!loading && <div className="text-gray-500">Posted on {formattedDate}</div>}
-                    <div className="pt-4 text-lg text-gray-200 break-words">
+                    <div className="pt-4 text-lg text-gray-200 whitespace-pre-wrap break-words">
                         {loading && <DescriptionSkeleton />}
                         {!loading && blog?.data.description}
                     </div>
