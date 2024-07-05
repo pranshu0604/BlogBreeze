@@ -1,0 +1,6 @@
+name = "blogbreeze-server"
+compatibility_date = "2023-12-01"
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZWFlYTkwYTMtZGZmNC00MGIzLThhMTctZTllOGY1ZjVjZTFjIiwidGVuYW50X2lkIjoiYTAwY2UwMGJmN2JhNjhmMDQ2NmQ3NDIyMGUyNjg0YzU5NmZhOTA4MTZlN2RhMWI3NGFjNmEyZTg2ZGRmNGZkZSIsImludGVybmFsX3NlY3JldCI6ImQ4MzYyYjIxLWRlNGMtNGQ4Yi05NjEwLTYzOTc3ODNiNzY0YyJ9.tDWXyehxlTUQzjRL4eo5TqFWUa3jnmPx3_8Wbz1n8rE"
+JWT_SECRET="secret"

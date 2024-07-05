@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@notoriouspran/medium-clone-common": "^1.1.2",
+    "@prisma/client": "^5.16.1",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "hono": "^4.4.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "prisma": "^5.16.1",
+    "wrangler": "^3.57.2"
+  },
+  "description": "``` npm install npm run dev ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
