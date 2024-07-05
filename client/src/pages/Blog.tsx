@@ -18,7 +18,7 @@ export const Blog = () => {
 
     const { id } = useParams()
 
-    // if blog is null
+
     
     const { loading, blog } = useBlog({
         id: id || ""

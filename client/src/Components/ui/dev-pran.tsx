@@ -1,5 +1,5 @@
 import React from "react";
-import { AnimatedTooltip } from "./animated-tooltip"; // Adjust the path based on your project structure
+import { AnimatedTooltip } from "./animated-tooltip"; 
 import PP from '../../assets/PP.jpg'
 import Homelander from '../../assets/Homelander.jpg'
 import Gus from '../../assets/GusFring.jpg'

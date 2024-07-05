@@ -31,7 +31,6 @@ router.use('/*', async (c, next) => {
     }
 })
 
-// routes:
 
 router.post('/', async (c) => {
     const body = await c.req.json()

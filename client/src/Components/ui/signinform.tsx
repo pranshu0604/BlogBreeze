@@ -50,7 +50,6 @@ export function SigninForm() {
       setErrors(fieldErrors as Partial<Record<keyof Signininput, string>>);
       setLoading(false)
     } else {
-      // Simulate server validation
       const serverResponse = await serverLogin(formData);
       if (serverResponse==='pass404') {
         setServerError((prev) => ({ ...prev, password: "Incorrect password" }));
@@ -70,7 +69,6 @@ export function SigninForm() {
     }
   };
 
-    // Simulating a server-side login function
     const serverLogin = async (formData: Signininput): Promise<string> => {
       try{
         const response = await axios.post(`${serverUrl}/api/v1/user/signin`, formData);

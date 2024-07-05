@@ -66,7 +66,6 @@ const Input = () => {
 
     const serverPublish = async (formData: Postinput) => {
         try {
-            // include authorization token
             const token = localStorage.getItem('token');
             if (token) {
                 axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;

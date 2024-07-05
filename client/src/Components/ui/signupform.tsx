@@ -47,7 +47,6 @@ export const SignupForm: React.FC = () => {
       setErrors(fieldErrors as Partial<Record<keyof Signupinput, string>>);
       setLoading(false);
     } else {
-      // Process form data
       const serverResponse = await serverSignUp(formData);
       if (serverResponse === 'email403') {
         setServerError((prev) => ({ ...prev, email: "Email already taken" }));

@@ -11,10 +11,6 @@ const router = new Hono<{
   }
 }>()
 
-// routes:
-// POST api/v1/signup
-// POST api/v1/signin
-
 router.post('/signup', async (c) => {
 
 
@@ -84,19 +80,16 @@ router.post('/signin', async (c) => {
     }
   });
 
-  // Check if user with email exists
   if (!user) {
     c.status(403);
     return c.json({error:'email404'});
   }
 
-  // Verify password
   if (user.password !== body.password) {
     c.status(403);
     return c.json({error:'pass404'});
   }
 
-  // Generate token if password is correct
   const token = await sign({ id: user.id }, c.env.JWT_SECRET);
 
   return c.json({ token, fname: user.firstname });
