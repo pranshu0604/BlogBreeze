@@ -4,11 +4,11 @@
 BlogBreeze is a blog sharing platform with many cool UI features.
 ## Tech Stack
 
-**Client:** Vite+React+TypeScript, TailwindCSS
+**Client:** Vite+React+TypeScript (Framework), TailwindCSS
 
-**Server:** (TypeScript) Cloudflare workers, Hono
+**Server:** (TypeScript), Cloudflare workers(Runtime), Hono(Framework)
 
-**Database:** Postgres, Prisma(ORM)
+**Database:** Postgres(DB), Prisma(ORM), Accelerate(Connection Pooling)
 ## Try Now:
 
 The web application has been deployed [here](https://blogbreeze-omega.vercel.app/)
